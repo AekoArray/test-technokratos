@@ -1,0 +1,47 @@
+.list {
+    padding:0;
+    list-style: none;
+}    
+.list li {
+    position: relative;
+    width: 1150px;
+    height: 50px;
+    padding: 16px 16px;
+    margin-bottom: 18px;
+    background-size: 100% 100%;
+    z-index: 1;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.list img {
+    width: 48px;
+    height: 48px;
+    border-radius: 64px;
+}
+.fio {
+    position: absolute;
+    width: 100%;
+    left: 100px;
+    top: 30px;
+}
+
+.balance {
+    position: absolute;
+    left: 250px;
+    top: 30px;
+}
+
+.date {
+    position: absolute;
+    left: 700px;
+    top: 30px;
+    color: #A8A8A8;
+}
+
+.status {
+    position: absolute;
+    left: 1000px;
+    top: 30px;
+}
